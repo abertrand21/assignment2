@@ -2,6 +2,8 @@
 
 In this assignment, we will work on map reduce algorithm. We have a dataset of size 1.6 GB (compressed, and 12 GB when uncompressed), with the records of nearly 120 million records. Our goal is to use map-reduce algorithm to get the **count** of **number of flights** for each carrier.
 
+For simplicity, the code to make the dataset is already in the repository. I made it so that you can immediately start on map reduce section of the project. However, most of the data we are currently downloading is unneccessary. If you want to build your own dataset, you can do so.
+
 ## The Data
 The data consists of flight arrival and departure details for all commercial flights within the USA, from October 1987 to April 2008. 
 
@@ -48,7 +50,9 @@ LICENCE **          | The licence of the file that every project should have.
 .gitkeep            | An empty file to keep folders under git.
 data                | The flights dataset will be downloaded to this folder. (**You won't be adding your data to git**)
 requirements.txt    | The packages needed to run this project. You may use `pip` to install these packages.
-data_handler.py     | The helper module that John uses to complete the task.
+data_handler.py     | The helper module to download, and read data.
+utils.py            | The helper module for some utiliy functions.
+Assignment2.ipynb   | Assignment notebook. 
 
 ### Clarification on `data/` Folder
 
